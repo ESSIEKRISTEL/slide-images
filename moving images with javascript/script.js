@@ -1,30 +1,4 @@
-// window.onload = function() {
-//     let slides = document.getElementsByClassName('carousel-item');
-//     let currentIndex = 0;
-//     const totalSlides = slides.length;
 
-//     // Function to add the 'active' class
-//     function addActive(index) {
-//         slides[index].classList.add('active');
-//     }
-
-//     // Function to remove the 'active' class
-//     function removeActive(index) {
-//         slides[index].classList.remove('active');
-//     }
-
-//     // Function to move to the next slide
-//     function nextSlide() {
-//         removeActive(currentIndex);  // Remove active from the current slide
-
-//         currentIndex = (currentIndex + 1) % totalSlides;  // Move to the next slide, loop back if necessary
-
-//         addActive(currentIndex);  // Add active class to the next slide
-//     }
-
-//     // Start the automatic slideshow
-//     setInterval(nextSlide, 1500);  // Change slides every 1500ms
-// };
 
 window.onload = function() {
     let slides = document.getElementsByClassName('carousel-item');
